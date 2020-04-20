@@ -18,9 +18,11 @@ body{
 }
 
 #content{
+  width: 600ox;
+  padding: 10px;
   float: right;
 }
 
 #footer{
-  float: clear;
+  clear:both;
 }
