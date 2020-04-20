@@ -1,26 +1,26 @@
 body{
-  background-color: grey
+  background-color: grey;
 }
 
 #header{
-  background-color: blue
-  text-align: center
-  text-color: white
+  background-color: blue;
+  text-align: center;
+  text-color: white;
 }
 
 #main{
-  width: 800px
+  width: 800px;
 }
 
 #nav{
-  width: 180px
-  float: left
+  width: 180px;
+  float: left;
 }
 
 #content{
-  float: right
+  float: right;
 }
 
 #footer{
-  float: clear
+  float: clear;
 }
