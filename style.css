@@ -1,1 +1,11 @@
+body{
+  background-color: grey
+}
+
+#header{
+  background-color: blue
+  text-align: center
+  text-color: white
+}
+
 
