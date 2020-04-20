@@ -8,4 +8,21 @@ body{
   text-color: white
 }
 
+#main{
+  width: 800px
+}
+
+#nav{
+  width: 180px
+  float: left
+}
+
+#content{
+  float: right
+}
+
+#footer{
+  float: clear
+}
+
 
