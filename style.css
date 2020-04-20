@@ -2,27 +2,27 @@ body{
   background-color: grey;
 }
 
-#header{
+.header{
   background-color: blue;
   text-align: center;
   text-color: white;
 }
 
-#container{
+.container{
   align: center;
   width: 800px;
 }
 
-#nav{
+.nav{
   width: 180px;
   float: left;
 }
 
-#content{
+.content{
   padding: 10px;
   float: right;
 }
 
-#footer{
+.footer{
   clear:both;
 }
