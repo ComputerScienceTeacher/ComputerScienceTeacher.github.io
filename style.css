@@ -3,7 +3,9 @@ body{
 }
 
 .header{
+  height 150px;
   background-color: blue;
+  border-style: solid;
   text-align: center;
   text-color: white;
 }
@@ -15,11 +17,13 @@ body{
 }
 
 .nav{
+  background-color: pink;
   width: 180px;
   float: left;
 }
 
 .content{
+  background-color: white;
   padding: 10px;
   float: right;
 }
