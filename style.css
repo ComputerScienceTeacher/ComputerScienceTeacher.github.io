@@ -2,6 +2,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+p {
+  width: 640px;
+  align: center;
+}
+
 .header {
   height: 100px;
   background-color: #1E6AE4;
