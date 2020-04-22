@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  height: 150px;
+  height: 100px;
   background-color: blue;
   border-style: solid;
   text-align: center;
@@ -18,9 +18,18 @@ body {
   margin-left: auto;
 }
 
+a {
+ text-decoration: none;
+}
+
 .nav{
   width:180px;
   float: left;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .content{
