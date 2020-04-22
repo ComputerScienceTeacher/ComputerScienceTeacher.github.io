@@ -17,8 +17,9 @@ a {
 .container{
   align: center;
   background-color: white;
-  align: center;
   width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav{
