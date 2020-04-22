@@ -29,6 +29,7 @@ a {
 
 .nav ul{
   list-style-type:none;
+  padding: 0;
 }
 
 .content{
@@ -38,6 +39,7 @@ a {
 }
 
 .footer{
+  background-color: grey;
   text-align: right;
   clear:both;
 }
