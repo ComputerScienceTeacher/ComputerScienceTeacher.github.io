@@ -28,9 +28,11 @@ a {
 }
 
 .nav{
+  background-color: yellow;
   width:180px;
   float: left;
   height: 700px;
+  border: solid;
 }
 
 .nav ul {
@@ -45,7 +47,8 @@ a {
 }
 
 .footer{
-  background-color: grey;
+  background-color: #E1E1E1;
   text-align: right;
   clear: both;
+  border: solid;
 }
