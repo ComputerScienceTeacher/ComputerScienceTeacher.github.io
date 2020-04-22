@@ -6,8 +6,12 @@
   text-color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container{
-  align: center
+  align: center;
   background-color: white;
   align: center;
   width: 1000px;
@@ -17,6 +21,10 @@
   background-color: pink;
   width: 180px;
   float: left;
+}
+
+.nav ul{
+  list-style-type:none;
 }
 
 .content{
