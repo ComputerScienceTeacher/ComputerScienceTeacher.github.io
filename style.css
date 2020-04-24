@@ -2,9 +2,14 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-p {
-  width: 640px;
+#about {
+  width: 460px;
   align: center;
+  float: left;
+}
+
+.alignRight {
+  float:right;
 }
 
 .header {
