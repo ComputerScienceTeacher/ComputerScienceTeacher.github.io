@@ -1,26 +1,29 @@
 <html>
     
-    <head>
-        <style>
-            button {
-                background-color: #000000;
-                border: none;
-                color: white;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 18px;
-                margin: 5px 5px;
-                cursor: pointer;
-            }
-        </style>
-    </head>
-    <center>
+<head>
+    <style>
+        button {
+            background-color: #000000;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 5px 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+<center>
 
 <a href="javascript:switchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active"><button>home</button></a>
 <a href="javascript:switchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu"><button>about me</button></a>
 <a href="javascript:switchTab('tb_3', 'content_3');" id="tb_3" class="tabmenu"><button>portfolio</button></a>
 <a href="javascript:switchTab('tb_4', 'content_4');" id="tb_4" class="tabmenu"><button>career</button></a>
+<a href="javascript:switchTab('tb_5', 'content_5');" id="tb_5" class="tabmenu"><button>my awesome students</button></a>
 
 </center>
 
@@ -54,7 +57,18 @@
 
 <div id="content_4" class="tabcontent" style="display:none;">
     <p>This section will be saved for a later date in the second semester.</p>
+</div>
+
+    
+<!--<My Students Section>!-->
+
+<div id="content_5" class="tabcontent" style="display:none;">
+    <center><p><font size=5>These are the best students at C.E. King High School:</center></font></p>
+</div>
+    
+    
 </body>
+
 
 <script>
     function switchTab(tab_id, tab_content) {
