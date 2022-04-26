@@ -82,9 +82,10 @@ third two digits are blue
 <!--<My Portfolio Section>!-->
 
 <div id="content_3" class="tabcontent" style="display:none;">
-    <div class = "row">
-        <p><b><center><font size = 6>my work</font></center></b></p>
-        <center>This is some work I have done at Second Baptist School:</center>
+     <p><b><center><font size = 6>my work</font></center></b></p>
+     <center>This is some work I have done at Second Baptist School:</center>
+    <br>
+     <div class = "row">
         <div class = "column">
             First Sample    
         </div>
@@ -94,7 +95,10 @@ third two digits are blue
         <div class = "column">
             Third Sample    
         </div>
-        <div class = "column">
+    </div>
+    <br>
+    <div class = "row">
+         <div class = "column">
             Fourth Sample    
         </div>
         <div class = "column">
@@ -105,7 +109,6 @@ third two digits are blue
         </div>
     </div>
 </div>
-
 
   
 <!--<Learning Section>!-->
