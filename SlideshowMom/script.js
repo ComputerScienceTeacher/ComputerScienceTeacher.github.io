@@ -41,36 +41,11 @@ function prevImage() {
   showImage(currentIndex);
 }
 
+// Keyboard navigation
 document.addEventListener("keydown", e => {
   if (e.key === "ArrowRight") nextImage();
   if (e.key === "ArrowLeft") prevImage();
 });
 
-showImage(currentIndex);
-
-
-let currentIndex = 0;
-const slide = document.getElementById("slide");
-const downloadLink = document.getElementById("downloadLink");
-
-function showImage(index) {
-  slide.src = images[index];
-  downloadLink.href = images[index];
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % images.length;
-  showImage(currentIndex);
-}
-
-function prevImage() {
-  currentIndex = (currentIndex - 1 + images.length) % images.length;
-  showImage(currentIndex);
-}
-
-document.addEventListener("keydown", e => {
-  if (e.key === "ArrowRight") nextImage();
-  if (e.key === "ArrowLeft") prevImage();
-});
-
+// Initialize with the first image
 showImage(currentIndex);
