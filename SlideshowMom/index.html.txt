@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Slideshow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slideshow-container">
+  <img id="slide" src="" alt="Slideshow image">
+
+  <div class="controls">
+    <button onclick="prevImage()">⟨ Prev</button>
+    <a id="downloadLink" download>
+      <button>Download</button>
+    </a>
+    <button onclick="nextImage()">Next ⟩</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
